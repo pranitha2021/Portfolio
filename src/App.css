@@ -10,6 +10,16 @@ body, html, .container {
   Padding:0;
 }
 
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+}
+
 
 #root {
   background-color:rgb(126, 160, 197) ;
